@@ -77,7 +77,7 @@ func (dp *DatabaseProvider) InsertHello(msg string) error {
 }
 
 func main() {
-	address := flag.String("address", "127.0.0.1:8081", "server startup address")
+	address := flag.String("address", "127.0.0.1:8082", "server startup address")
 	flag.Parse()
 
 	psqlInfo := fmt.Sprintf("host=%s port=%d user=%s "+
